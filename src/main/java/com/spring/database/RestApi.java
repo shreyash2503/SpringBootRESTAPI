@@ -6,11 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @Log
-public class DatabaseApplication{
+public class RestApi {
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(DatabaseApplication.class, args);
+		SpringApplication.run(RestApi.class, args);
 	}
 
 
